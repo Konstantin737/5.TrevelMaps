@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+}
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    vertical-align: top;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.conteiner {
+    width: 1500px;
+    height: 1024px;
+    margin: 200px auto;
+}
+.panel1, .panel2, .panel3 {
+    width: 1200px;
+    height: 320px;
+    margin: 0px auto;
+    vertical-align: top;
+}
+.panel11 {
+    height: 300px; 
+    background-image: url(images/map.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: -70px 145px;   
+} 
+.panel22 {
+    width: 1450px;
+    height: 585px;
+} 
+.panel33 {
+    height: 240px;
+}
+.panel1-1 {
+    width: 215px;
+    height: 290px;
+    background-color: rgba(131, 127, 127, 0.4);
+    display: inline-block;
+    margin: auto auto;
+    position: relative;
+    top: 10px;
+    border-radius: 20px 0px 0px 0px;
+    vertical-align: top;
+}
+.panel1-1-1 {
+    width: 100px;
+    height: 100px;
+    background-image: url(images/button1.png);
+    background-size: cover;
+    display: inline-block;
+    margin: auto auto;
+    position: relative;
+    right: 35px;
+    top: 45px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+.panel1-1-1:hover {
+    box-shadow: 3px 3px 3px gray;
+    transition: 0.2s;
+}
+.panel1-1-1:active {
+    box-shadow: none;
+}
+.panel1-1-2 {
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 75px;
+    bottom: 50px;
+    vertical-align: top;
+}
+.text1 {
+    font-size: 20px;
+    color: rgba(162, 157, 151, 0.8);
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.panel1-1-3 {
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 75px;
+    bottom: 50px;
+    vertical-align: top;
+}
+.text2 {
+    font-size: 12px;
+    color: rgba(137, 130, 122, 0.6);
+    position: relative;
+    left: 23px;
+    top: 0px;
+}
+.panel1-2 {
+    width: 985px;
+    height: 290px;
+    background-color: rgba(172, 171, 171, 0.3);
+    display: inline-block;
+    margin: auto auto;
+    position: relative;
+    top: 10px;
+    border-radius: 0px 20px 0px 0px;
+    vertical-align: top;
+}
+.panel1-2-1 {
+    width: auto;
+    height: 70px;
+}
+.text3 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+    position: relative;
+    left: 435px;
+    top: 30px;
+}
+.panel1-2-2 {
+    width: auto;
+    height: 70px;
+    margin-left: 125px;
+    margin-top: 5px;
+}
+.round1, .round2, .round3 {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-color: rgb(117, 198, 95);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 40px;
+    vertical-align: top;
+    position: relative;
+    left: auto;
+    top: 10px;
+    display:inline-block;
+}
+.round1-1 {
+    background-image: url(images/round1.png);
+}
+.round1-2 {
+    background-image: url(images/round2.png);
+    border-color: gray;
+}
+.round1-3 {
+    background-image: url(images/round3.png);
+    border-color: gray;
+}
+.line {
+    width: 200px;
+    height: 4px;
+    background-color: gray;
+    border-radius: 3px;
+    vertical-align: top;
+    position: relative;
+    left: auto;
+    top: 42px;
+    display:inline-block;
+    margin: auto 10px;
+}
+.panel1-2-3 {
+    width: auto;
+    height: 70px;
+    margin-top: 40px;
+}
+.text1-2-3-1, .text1-2-3-2, .text1-2-3-3 {
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-shadow: 1px 1px 1px gray;
+}
+.text1-2-3-3-1 {
+    width: 160px;
+    margin-left: 85px;
+}
+.text1-2-3-3-2 {
+    width: 210px;
+    margin-left: 108px;
+}
+.text1-2-3-3-3 {
+    width: 140px;
+    margin-left: 132px;
+}
+.text4, .text5, .text6 {
+    font-size: 20px;
+}
+.text4 {
+    color: white;
+    margin-left: 22px;
+}
+.text5 {
+    color: rgba(162, 157, 151, 0.8);
+    margin-left: 45px;
+}
+.text6 {
+    color: rgba(162, 157, 151, 0.8);
+    margin-left: -6px;
+}
+.panel2-1 {
+    width: 420px;
+    height: 585px;
+    background-image: url(images/Google-Map.jpg);
+    background-size: cover;
+    border-radius: 20px 0px 0px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.map-point1 {
+    width: 135px;
+    height: 80px;
+    position: relative;
+    left: 101px;
+    top: 443px;
+}
+.map-point2 {
+    width: 135px;
+    height: 80px;
+    position: relative;
+    left: 197px;
+    top: 175px;
+}
+.map-point3 {
+    width: 135px;
+    height: 80px;
+    position: relative;
+    left: 373px;
+    top: 0px;
+}
+.plitka1 {
+    width: 115px;
+    height: 40px;
+    background-color: rgb(77, 169, 252);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+}
+.plitka1:active {
+    box-shadow: none;
+}
+.plitka2 {
+    width: 130px;
+    height: 5px;
+    background-color: rgb(77, 169, 252);
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+.plitka3 {
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.plitka4 {
+    width: 80px;
+    height: 5px;
+    background-color: yellow;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px grey;
+}
+.plitka1-1 {
+    width: 56px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.star1 {
+    width: 10px;
+    height: 10px;
+    background-image: url(images/star1.png);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 16px;
+    vertical-align: top;
+}
+.star2 {
+    width: 10px;
+    height: 10px;
+    background-image: url(images/star2.png);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 16px;
+    vertical-align: top;
+}
+.vert-line {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.plitka1-2 {
+    width: 56px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.ugol1 {
+    width: 8px;
+    height: 8px;
+    background-image: url(images/tre.png);
+    background-size: cover;
+    position: relative;
+    left: 25px;
+    bottom: 1px;
+    vertical-align: top;
+}
+.city {
+    font-size: 12px;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+    position: relative;
+    left: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+.panel2-2 {
+    width: 950px;
+    height: 420px;
+    display: inline-block;
+    vertical-align: top;
+}
+.panel2-2-1 {
+    width: 20px;
+    height: 20px;
+    background-image: url(images/tre2.png);
+    background-size: cover;
+    position: relative;
+    left: 70px;
+    bottom: 17px;
+}
+.panel2-2-2 {
+    width: 950px;
+    height: 240px;
+    background-color: rgba(244, 244, 244, 0.8);
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    border-radius: 0px 20px 0px 0px;
+}
+.panel2-2-3 {
+    width: 950px;
+    height: 345px;
+    background-color: rgba(241, 240, 238, 0.8);
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    border-radius: 0px 0px 20px 0px;
+}
+.plitka5 {
+    width: 70px;
+    height: 140px;
+    background-color: rgba(241, 240, 238, 0.3);
+    position: relative;
+    left: 1325px;
+    display: inline-block;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+.plitka6 {
+    width: 905px;
+    height: 584px;
+    background-color: rgba(244, 244, 244, 0.6);
+    position: relative;
+    left: 420px;
+    bottom: 380px;
+    display: inline-block;
+}
+.ugol2 {
+    width: 70px;
+    height: 140px;
+    background-image: url(images/right.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.size {
+    width: 40px;
+    height: 40px;
+    background-image: url(images/size.png);
+    background-size: cover;
+    position: relative;
+    left: 880px;
+    top: 30px;
+    cursor: pointer;
+}
+.country {
+    width: 950px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+}
+.country-name {
+    font-size: 24px;
+    color: black;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+.type-cursor {
+    width: 15px;
+    height: 15px;
+    background-image: url(images/cursor.png);
+    background-size: cover;
+    position: relative;
+    left: 280px;
+    top: 84px;
+}
+.type-text {
+    font-size: 14px;
+    color: rgba(202, 200, 201);
+    position: relative;
+    left: 310px;
+    top: 68px;
+}
+.visitors {
+    width: 950px;
+    height: 80px;
+}
+.visitors1 {
+    width: 15px;
+    height: 15px;
+    background-image: url(images/visitors1.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.visitors2 {
+    font-size: 14px;
+    color: rgba(202, 200, 201);
+    display: inline-block;
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+.visitors3 {
+    width: 15px;
+    height: 15px;
+    background-image: url(images/visitors1.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: 20px;
+}
+.visitors4 {
+    font-size: 14px;
+    color: rgba(202, 200, 201);
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.visitors5 {
+    width: 15px;
+    height: 15px;
+    background-image: url(images/visitors1.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 490px;
+    top: 20px;
+}
+.visitors6 {
+    font-size: 14px;
+    color: rgba(202, 200, 201);
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+.city-Madrid {
+    width: 150px;
+    height: 150px;
+    background-image: url(images/Madrid.jpg);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    border-radius: 75px;
+    cursor: pointer;
+}
+.city-Paris {
+    width: 150px;
+    height: 150px;
+    background-image: url(images/Paris.jpg);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 215px;
+    bottom: 20px;
+    border-radius: 75px;
+    cursor: pointer;
+}
+.city-Berlin {
+    width: 150px;
+    height: 150px;
+    background-image: url(images/Berlin.jpg);
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 360px;
+    bottom: 20px;
+    border-radius: 75px;
+    cursor: pointer;
+}
+.city-hov-act:hover {
+    box-shadow: 3px 3px 3px gray;
+    transition: 0.4s;
+}
+.city-hov-act:active {
+    box-shadow: none;
+}
+.cityname {
+    width: 950px;
+    height: 60px;
+}
+.cityname1 {
+    font-size: 24px;
+    color: rgba(153 151 152);
+    display: inline-block;
+    position: relative;
+    left: 119px;
+}
+.cityname2 {
+    font-size: 24px;
+    color: rgb(29, 28, 29);
+    display: inline-block;
+    position: relative;
+    left: 350px;
+}
+.cityname3 {
+    font-size: 24px;
+    color: rgba(153 151 152);
+    display: inline-block;
+    position: relative;
+    left: 590px;
+}
+.percentages {
+    width: 950px;
+    height: 60px;
+}
+.percentages1 {
+    font-size: 24px;
+    color: rgba(153 151 152);
+    display: inline-block;
+    position: relative;
+    left: 128px;
+    bottom: 5px;
+}
+.percentages2 {
+    font-size: 24px;
+    color: rgb(29, 28, 29);
+    display: inline-block;
+    position: relative;
+    left: 365px;
+    bottom: 5px;
+}
+.percentages3 {
+    font-size: 24px;
+    color: rgba(153 151 152);
+    display: inline-block;
+    position: relative;
+    left: 605px;
+    bottom: 5px;
+}
+.panel3-1 {
+    width: 215px;
+    height: 240px;
+    background-color: rgba(131, 127, 127, 0.4);
+    display: inline-block;
+    margin: auto auto;
+    position: relative;
+    border-radius: 0px 0px 0px 20px;
+    vertical-align: top;
+}
+.panel3-2 {
+    width: 985px;
+    height: 240px;
+    background-color: rgba(172, 171, 171, 0.3);
+    display: inline-block;
+    margin: auto auto;
+    position: relative;
+    border-radius: 0px 0px 20px 0px;
+    vertical-align: top;
+}
+.duo {
+    width: 30px;
+    height: 20px;
+    background-image: url(images/duo.png);
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+.left {
+    width: 30px;
+    height: 20px;
+    background-image: url(images/left.png);
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    cursor: pointer;
+}
+.select {
+    width: 980px;
+    height: 140px;
+}
+.stop {
+    width: 15px;
+    height: 15px;
+    background-image: url(images/stop.png);
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: 60px;
+}
+.select1 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 150px;
+    top: 55px;
+}
+.prev {
+    width: 130px;
+    height: 50px;
+    background-color: rgba(131, 127, 127, 0.4);
+    box-shadow: 1px 2px 2px gray;
+    border-radius: 5px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: 42px;
+}
+.prev:hover {
+    box-shadow: 3px 3px 3px gray;
+    transition: 0,4s;
+}
+.prev:active {
+    box-shadow: none;
+}
+.prev1 {
+    font-size: 26px;
+    color: rgba(131, 127, 127, 0.8);
+    text-shadow: 1px 1px 1px gray;
+    position: relative;
+    left: 42px;
+    top: 10px;
+    cursor: pointer;
+}
+.next {
+    width: 130px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 2px 2px gray;
+    border-radius: 5px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    left: 320px;
+    top: 42px;
+}
+.next:hover {
+    box-shadow: 3px 3px 3px gray;
+    transition: 0,4s;
+}
+.next:active {
+    box-shadow: none;
+}
+.next1 {
+    font-size: 26px;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 1px gray;
+    position: relative;
+    left: 42px;
+    top: 10px;
+    cursor: pointer;
+}
+.line2 {
+    width: 985px;
+    height: 1px;
+    background-color: white;
+}
+.company {
+    width: 980px;
+    height: 99px;
+}
+.company1 {
+    font-size: 16px;
+    color: rgba(137, 130, 122, 0.8);
+    display: inline-block;
+    position: relative;
+    left: 290px;
+    top: 40px;
+}
